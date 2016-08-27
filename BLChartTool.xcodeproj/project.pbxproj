@@ -13,6 +13,25 @@
 		225700551D717B8500C75541 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 225700531D717B8500C75541 /* Main.storyboard */; };
 		225700571D717B8500C75541 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 225700561D717B8500C75541 /* Assets.xcassets */; };
 		2257005A1D717B8500C75541 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 225700581D717B8500C75541 /* LaunchScreen.storyboard */; };
+		2257008B1D717BAF00C75541 /* BLBarChartToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 225700651D717BAF00C75541 /* BLBarChartToolView.m */; };
+		2257008C1D717BAF00C75541 /* BLBarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 225700671D717BAF00C75541 /* BLBarChartView.m */; };
+		2257008D1D717BAF00C75541 /* BLChartTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 225700691D717BAF00C75541 /* BLChartTool.m */; };
+		2257008E1D717BAF00C75541 /* BLPieChartTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2257006D1D717BAF00C75541 /* BLPieChartTool.m */; };
+		2257008F1D717BAF00C75541 /* BLPieChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2257006F1D717BAF00C75541 /* BLPieChartView.m */; };
+		225700901D717BAF00C75541 /* BLPieView.m in Sources */ = {isa = PBXBuildFile; fileRef = 225700711D717BAF00C75541 /* BLPieView.m */; };
+		225700911D717BAF00C75541 /* BLBrokenLineRunChartTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 225700761D717BAF00C75541 /* BLBrokenLineRunChartTool.m */; };
+		225700921D717BAF00C75541 /* circlepoint@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 225700781D717BAF00C75541 /* circlepoint@2x.png */; };
+		225700931D717BAF00C75541 /* circlepoint@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 225700791D717BAF00C75541 /* circlepoint@3x.png */; };
+		225700941D717BAF00C75541 /* BLChatLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2257007B1D717BAF00C75541 /* BLChatLineView.m */; };
+		225700951D717BAF00C75541 /* BLPointBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 2257007D1D717BAF00C75541 /* BLPointBtn.m */; };
+		225700961D717BAF00C75541 /* home-btn_hig@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 225700811D717BAF00C75541 /* home-btn_hig@2x.png */; };
+		225700971D717BAF00C75541 /* home-btn_hig@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 225700821D717BAF00C75541 /* home-btn_hig@3x.png */; };
+		225700981D717BAF00C75541 /* home_btn_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 225700831D717BAF00C75541 /* home_btn_1@2x.png */; };
+		225700991D717BAF00C75541 /* home_btn_1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 225700841D717BAF00C75541 /* home_btn_1@3x.png */; };
+		2257009A1D717BAF00C75541 /* home_btu_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 225700851D717BAF00C75541 /* home_btu_nor@2x.png */; };
+		2257009B1D717BAF00C75541 /* home_btu_nor@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 225700861D717BAF00C75541 /* home_btu_nor@3x.png */; };
+		2257009C1D717BAF00C75541 /* BLCurveLineRunChartTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 225700881D717BAF00C75541 /* BLCurveLineRunChartTool.m */; };
+		2257009D1D717BAF00C75541 /* BLTrendChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 2257008A1D717BAF00C75541 /* BLTrendChart.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +45,40 @@
 		225700561D717B8500C75541 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		225700591D717B8500C75541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2257005B1D717B8500C75541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		225700631D717BAF00C75541 /* BarChatUseGuide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarChatUseGuide.h; sourceTree = "<group>"; };
+		225700641D717BAF00C75541 /* BLBarChartToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLBarChartToolView.h; sourceTree = "<group>"; };
+		225700651D717BAF00C75541 /* BLBarChartToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLBarChartToolView.m; sourceTree = "<group>"; };
+		225700661D717BAF00C75541 /* BLBarChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLBarChartView.h; sourceTree = "<group>"; };
+		225700671D717BAF00C75541 /* BLBarChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLBarChartView.m; sourceTree = "<group>"; };
+		225700681D717BAF00C75541 /* BLChartTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLChartTool.h; sourceTree = "<group>"; };
+		225700691D717BAF00C75541 /* BLChartTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLChartTool.m; sourceTree = "<group>"; };
+		2257006B1D717BAF00C75541 /* BLPeiChartUseGuide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLPeiChartUseGuide.h; sourceTree = "<group>"; };
+		2257006C1D717BAF00C75541 /* BLPieChartTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLPieChartTool.h; sourceTree = "<group>"; };
+		2257006D1D717BAF00C75541 /* BLPieChartTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLPieChartTool.m; sourceTree = "<group>"; };
+		2257006E1D717BAF00C75541 /* BLPieChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLPieChartView.h; sourceTree = "<group>"; };
+		2257006F1D717BAF00C75541 /* BLPieChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLPieChartView.m; sourceTree = "<group>"; };
+		225700701D717BAF00C75541 /* BLPieView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLPieView.h; sourceTree = "<group>"; };
+		225700711D717BAF00C75541 /* BLPieView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLPieView.m; sourceTree = "<group>"; };
+		225700741D717BAF00C75541 /* BLBrokenLineRunChartGuide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLBrokenLineRunChartGuide.h; sourceTree = "<group>"; };
+		225700751D717BAF00C75541 /* BLBrokenLineRunChartTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLBrokenLineRunChartTool.h; sourceTree = "<group>"; };
+		225700761D717BAF00C75541 /* BLBrokenLineRunChartTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLBrokenLineRunChartTool.m; sourceTree = "<group>"; };
+		225700781D717BAF00C75541 /* circlepoint@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circlepoint@2x.png"; sourceTree = "<group>"; };
+		225700791D717BAF00C75541 /* circlepoint@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circlepoint@3x.png"; sourceTree = "<group>"; };
+		2257007A1D717BAF00C75541 /* BLChatLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLChatLineView.h; sourceTree = "<group>"; };
+		2257007B1D717BAF00C75541 /* BLChatLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLChatLineView.m; sourceTree = "<group>"; };
+		2257007C1D717BAF00C75541 /* BLPointBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLPointBtn.h; sourceTree = "<group>"; };
+		2257007D1D717BAF00C75541 /* BLPointBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLPointBtn.m; sourceTree = "<group>"; };
+		2257007F1D717BAF00C75541 /* BLCurveLineRunChartGuide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLCurveLineRunChartGuide.h; sourceTree = "<group>"; };
+		225700811D717BAF00C75541 /* home-btn_hig@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home-btn_hig@2x.png"; sourceTree = "<group>"; };
+		225700821D717BAF00C75541 /* home-btn_hig@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home-btn_hig@3x.png"; sourceTree = "<group>"; };
+		225700831D717BAF00C75541 /* home_btn_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_btn_1@2x.png"; sourceTree = "<group>"; };
+		225700841D717BAF00C75541 /* home_btn_1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_btn_1@3x.png"; sourceTree = "<group>"; };
+		225700851D717BAF00C75541 /* home_btu_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_btu_nor@2x.png"; sourceTree = "<group>"; };
+		225700861D717BAF00C75541 /* home_btu_nor@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_btu_nor@3x.png"; sourceTree = "<group>"; };
+		225700871D717BAF00C75541 /* BLCurveLineRunChartTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLCurveLineRunChartTool.h; sourceTree = "<group>"; };
+		225700881D717BAF00C75541 /* BLCurveLineRunChartTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLCurveLineRunChartTool.m; sourceTree = "<group>"; };
+		225700891D717BAF00C75541 /* BLTrendChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLTrendChart.h; sourceTree = "<group>"; };
+		2257008A1D717BAF00C75541 /* BLTrendChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLTrendChart.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +111,7 @@
 		225700491D717B8500C75541 /* BLChartTool */ = {
 			isa = PBXGroup;
 			children = (
+				225700611D717BAF00C75541 /* BLChartTool(图表工具) */,
 				2257004D1D717B8500C75541 /* AppDelegate.h */,
 				2257004E1D717B8500C75541 /* AppDelegate.m */,
 				225700501D717B8500C75541 /* ViewController.h */,
@@ -77,6 +131,103 @@
 				2257004B1D717B8500C75541 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		225700611D717BAF00C75541 /* BLChartTool(图表工具) */ = {
+			isa = PBXGroup;
+			children = (
+				225700621D717BAF00C75541 /* BLBarChart(柱状图) */,
+				2257006A1D717BAF00C75541 /* BLPieChart(饼图) */,
+				225700721D717BAF00C75541 /* BLRunChart(走势图) */,
+			);
+			path = "BLChartTool(图表工具)";
+			sourceTree = "<group>";
+		};
+		225700621D717BAF00C75541 /* BLBarChart(柱状图) */ = {
+			isa = PBXGroup;
+			children = (
+				225700631D717BAF00C75541 /* BarChatUseGuide.h */,
+				225700641D717BAF00C75541 /* BLBarChartToolView.h */,
+				225700651D717BAF00C75541 /* BLBarChartToolView.m */,
+				225700661D717BAF00C75541 /* BLBarChartView.h */,
+				225700671D717BAF00C75541 /* BLBarChartView.m */,
+				225700681D717BAF00C75541 /* BLChartTool.h */,
+				225700691D717BAF00C75541 /* BLChartTool.m */,
+			);
+			path = "BLBarChart(柱状图)";
+			sourceTree = "<group>";
+		};
+		2257006A1D717BAF00C75541 /* BLPieChart(饼图) */ = {
+			isa = PBXGroup;
+			children = (
+				2257006B1D717BAF00C75541 /* BLPeiChartUseGuide.h */,
+				2257006C1D717BAF00C75541 /* BLPieChartTool.h */,
+				2257006D1D717BAF00C75541 /* BLPieChartTool.m */,
+				2257006E1D717BAF00C75541 /* BLPieChartView.h */,
+				2257006F1D717BAF00C75541 /* BLPieChartView.m */,
+				225700701D717BAF00C75541 /* BLPieView.h */,
+				225700711D717BAF00C75541 /* BLPieView.m */,
+			);
+			path = "BLPieChart(饼图)";
+			sourceTree = "<group>";
+		};
+		225700721D717BAF00C75541 /* BLRunChart(走势图) */ = {
+			isa = PBXGroup;
+			children = (
+				225700731D717BAF00C75541 /* BLBrokenLineRunChart(折线) */,
+				2257007E1D717BAF00C75541 /* BLCurveLineRunChart(曲线) */,
+			);
+			path = "BLRunChart(走势图)";
+			sourceTree = "<group>";
+		};
+		225700731D717BAF00C75541 /* BLBrokenLineRunChart(折线) */ = {
+			isa = PBXGroup;
+			children = (
+				225700741D717BAF00C75541 /* BLBrokenLineRunChartGuide.h */,
+				225700751D717BAF00C75541 /* BLBrokenLineRunChartTool.h */,
+				225700761D717BAF00C75541 /* BLBrokenLineRunChartTool.m */,
+				225700771D717BAF00C75541 /* BLChatLinePic */,
+				2257007A1D717BAF00C75541 /* BLChatLineView.h */,
+				2257007B1D717BAF00C75541 /* BLChatLineView.m */,
+				2257007C1D717BAF00C75541 /* BLPointBtn.h */,
+				2257007D1D717BAF00C75541 /* BLPointBtn.m */,
+			);
+			path = "BLBrokenLineRunChart(折线)";
+			sourceTree = "<group>";
+		};
+		225700771D717BAF00C75541 /* BLChatLinePic */ = {
+			isa = PBXGroup;
+			children = (
+				225700781D717BAF00C75541 /* circlepoint@2x.png */,
+				225700791D717BAF00C75541 /* circlepoint@3x.png */,
+			);
+			path = BLChatLinePic;
+			sourceTree = "<group>";
+		};
+		2257007E1D717BAF00C75541 /* BLCurveLineRunChart(曲线) */ = {
+			isa = PBXGroup;
+			children = (
+				2257007F1D717BAF00C75541 /* BLCurveLineRunChartGuide.h */,
+				225700801D717BAF00C75541 /* BLCurveLineRunChartPic */,
+				225700871D717BAF00C75541 /* BLCurveLineRunChartTool.h */,
+				225700881D717BAF00C75541 /* BLCurveLineRunChartTool.m */,
+				225700891D717BAF00C75541 /* BLTrendChart.h */,
+				2257008A1D717BAF00C75541 /* BLTrendChart.m */,
+			);
+			path = "BLCurveLineRunChart(曲线)";
+			sourceTree = "<group>";
+		};
+		225700801D717BAF00C75541 /* BLCurveLineRunChartPic */ = {
+			isa = PBXGroup;
+			children = (
+				225700811D717BAF00C75541 /* home-btn_hig@2x.png */,
+				225700821D717BAF00C75541 /* home-btn_hig@3x.png */,
+				225700831D717BAF00C75541 /* home_btn_1@2x.png */,
+				225700841D717BAF00C75541 /* home_btn_1@3x.png */,
+				225700851D717BAF00C75541 /* home_btu_nor@2x.png */,
+				225700861D717BAF00C75541 /* home_btu_nor@3x.png */,
+			);
+			path = BLCurveLineRunChartPic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +288,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				2257005A1D717B8500C75541 /* LaunchScreen.storyboard in Resources */,
+				225700961D717BAF00C75541 /* home-btn_hig@2x.png in Resources */,
+				225700981D717BAF00C75541 /* home_btn_1@2x.png in Resources */,
 				225700571D717B8500C75541 /* Assets.xcassets in Resources */,
+				225700931D717BAF00C75541 /* circlepoint@3x.png in Resources */,
+				2257009B1D717BAF00C75541 /* home_btu_nor@3x.png in Resources */,
+				225700991D717BAF00C75541 /* home_btn_1@3x.png in Resources */,
 				225700551D717B8500C75541 /* Main.storyboard in Resources */,
+				225700971D717BAF00C75541 /* home-btn_hig@3x.png in Resources */,
+				225700921D717BAF00C75541 /* circlepoint@2x.png in Resources */,
+				2257009A1D717BAF00C75541 /* home_btu_nor@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,8 +308,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2257008D1D717BAF00C75541 /* BLChartTool.m in Sources */,
+				225700901D717BAF00C75541 /* BLPieView.m in Sources */,
+				2257008C1D717BAF00C75541 /* BLBarChartView.m in Sources */,
 				225700521D717B8500C75541 /* ViewController.m in Sources */,
+				225700941D717BAF00C75541 /* BLChatLineView.m in Sources */,
+				2257008B1D717BAF00C75541 /* BLBarChartToolView.m in Sources */,
+				2257008F1D717BAF00C75541 /* BLPieChartView.m in Sources */,
+				225700951D717BAF00C75541 /* BLPointBtn.m in Sources */,
 				2257004F1D717B8500C75541 /* AppDelegate.m in Sources */,
+				225700911D717BAF00C75541 /* BLBrokenLineRunChartTool.m in Sources */,
+				2257009D1D717BAF00C75541 /* BLTrendChart.m in Sources */,
+				2257009C1D717BAF00C75541 /* BLCurveLineRunChartTool.m in Sources */,
+				2257008E1D717BAF00C75541 /* BLPieChartTool.m in Sources */,
 				2257004C1D717B8500C75541 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
